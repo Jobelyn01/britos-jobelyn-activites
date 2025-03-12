@@ -1,0 +1,52 @@
+/* PSEUDO-CLASS  - state of element */
+
+h1{
+    background-color: aqua;
+}
+
+h1:hover {
+    background-color: aquamarine;
+    height: 100px;
+}
+
+h1:active{
+    background-color: red;
+}
+
+.google {
+    color: green;
+}
+
+.google:hover{
+    background-color: lawngreen;
+}
+
+.google:visited{
+    color: blueviolet;
+}
+.google-btn{
+    background-color: blue;
+    color:black;
+}
+.google-btn:hover{
+    background-color:lightcyan;
+    height: 300px;
+}
+.google-btn:active{
+    background-color: red;
+}
+
+.facebook:visited{
+    color: blueviolet;
+}
+.facebook-btn{
+    background-color:lawngreen;
+    color:black;
+}
+.facebook-btn:hover{
+    background-color:lightcyan;
+    height: 300px;
+}
+.facebook-btn:active{
+    background-color: red;
+}
